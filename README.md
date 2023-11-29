@@ -30,7 +30,7 @@ For example:
 from textual.app import App
 from textual.containers import ScrollableContainer
 
-from textual_snowfall.wigets import Snowfall
+from textual_snowfall.widgets import Snowfall
 
 class SnowScroll(ScrollableContainer, Snowfall):
     pass
